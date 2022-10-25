@@ -1,0 +1,171 @@
+.chronoDndWrapper {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  max-width: 930px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.chronoDropPlace {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.chronoDragPlace {
+  width: 100%;
+  /* min-height: 150px; */
+
+  -webkit-box-align: center;
+
+  -ms-flex-align: center;
+
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.chronoDragPlace_height-big {
+  height: 200px;
+}
+.chronoDragPlace_height-middle {
+  height: 180px;
+}
+.chronoDragPlace_height-small {
+  height: 150px;
+}
+
+.chronoDragPictureBox:hover {
+  -webkit-box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b;
+  box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b;
+  cursor: -webkit-grab;
+  cursor: grab;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.chronoDropBox {
+  position: relative;
+  color: #b6b6b6;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.chronoBox_sizes_big {
+  width: 200px;
+  height: 200px;
+}
+.chronoBox_sizes_middle {
+  width: 180px;
+  height: 180px;
+}
+.chronoBox_sizes_small {
+  width: 150px;
+  height: 150px;
+}
+
+.chronoDragPictureBox {
+  border-radius: 12px;
+
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-touch-action: none;
+      touch-action: none;
+}
+
+.chronoDropBoxNumbers {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 5px dashed #b6b6b6;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  font-size: 70px;
+  color: #b6b6b6;
+  background-color: #e7e7e7;
+
+  pointer-events: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1370px) {
+  .chronoDragPlace_height-big {
+    height: 130px;
+  }
+  .chronoDragPlace_height-middle {
+    height: 110px;
+  }
+  .chronoDragPlace_height-small {
+    height: 95px;
+  }
+
+  .chronoDragPlace {
+    min-height: 95px;
+  }
+  .chronoBox_sizes_big {
+    width: 130px;
+    height: 130px;
+  }
+  .chronoBox_sizes_middle {
+    width: 110px;
+    height: 110px;
+  }
+  .chronoBox_sizes_small {
+    width: 95px;
+    height: 95px;
+  }
+}

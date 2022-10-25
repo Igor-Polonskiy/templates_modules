@@ -1,0 +1,48 @@
+.verticalTxtSort_task_list {
+    padding: 0;
+    position: relative;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.verticalTxtSort_task_item {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 80%;
+    text-align: center;
+    border-color: rgba(29, 101, 255, 0.6431372549019608);
+    border-radius: 10px;
+    cursor: -webkit-grab;
+    cursor: grab;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+            -ms-touch-action: none;
+                touch-action: none;
+
+}
+
+.verticalTxtSort_selected {
+    opacity: 0.6;
+}
+.verticalTxtSort_audio{
+    display: none !important;
+}
+.verticalTxtSort_task_list .buttonPlayPausePlayPause_wrap{
+    position: relative;
+    top:0;
+    left:0;
+    margin-right: 10px;
+}

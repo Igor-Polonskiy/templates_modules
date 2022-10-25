@@ -1,0 +1,147 @@
+.dnd_imgWithShadow_comparePicturesWrapper {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  max-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dnd_imgWithShadow_dropPlaceWrapper {
+  width: 100%;
+
+  padding-top: 20px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dnd_imgWithShadow_dropPlaceWrapper_width-small {
+  width: 60%;
+}
+
+.dnd_imgWithShadow_dragPlaceWrapper {
+  width: 100%;
+  min-height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dnd_imgWithShadow_dragPlace {
+  height: 150px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-touch-action: none;
+      touch-action: none;
+
+}
+
+.dnd_imgWithShadow_dragPlace:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.dnd_imgWithShadow_dropPlace {
+  height: 150px;
+  width: 150px;
+
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dnd_imgWithShadow_dropPlace-animated {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-animation: animal 3s ease-in-out infinite;
+  animation: animal 3s ease-in-out infinite;
+}
+
+@-webkit-keyframes animal {
+  50% {
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes animal {
+  50% {
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+  }
+  50% {
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .dnd_imgWithShadow_comparePicturesWrapper {
+    max-height: 660px;
+  }
+  .dnd_imgWithShadow_dropPlaceWrapper {
+    width: 70%;
+  }
+  .dnd_imgWithShadow_dragPlaceWrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 320px;
+    width: 70%;
+  }
+  .dnd_imgWithShadow_dropPlaceWrapper_width-small {
+    width: 100%;
+  }
+}

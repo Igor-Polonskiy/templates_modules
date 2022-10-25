@@ -1,0 +1,181 @@
+.dnd_MoveWordsWithCopy_comparePicturesWrapper {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 100%;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+
+  -ms-flex-pack: distribute;
+
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.dnd_MoveWordsWithCopy_dropPlaceWrapper {
+  width: 100%;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 10px;
+
+  gap: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.dnd_MoveWordsWithCopy_dragPlaceWrapper {
+  width: 100%;
+  min-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+  -webkit-box-pack: justify;
+
+      -ms-flex-pack: justify;
+
+          justify-content: space-between;
+
+  -webkit-box-align: center;
+
+      -ms-flex-align: center;
+
+          align-items: center;
+
+  -webkit-box-sizing: border-box;
+
+          box-sizing: border-box;
+
+  border-top: 1px solid #e9ecf4;
+  padding-top: 5px;
+  gap: 5px;
+}
+
+.dnd_MoveWordsWithCopy_dragPlace {
+  height: 30px;
+  width: 180px;
+  border-radius: 12px;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #99999b;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-touch-action: none;
+      touch-action: none;
+}
+.dnd_MoveWordsWithCopy_dragPlace:hover {
+  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+          box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.dnd_MoveWordsWithCopy_dropPlace {
+  border-radius: 12px;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.dnd_MoveWordsWithCopy_dropPlacePart {
+  display: inline-block;
+  width: 180px;
+  height: 30px;
+  border: 3px solid #99999b;
+  border-radius: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.dnd_MoveWordsWithCopy_dropPlacePart > .dnd_MoveWordsWithCopy_dragPlace {
+  border: none;
+}
+
+@media screen and (max-width: 1370px) {
+  .dnd_MoveWordsWithCopy_comparePicturesWrapper {
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+
+  .dnd_MoveWordsWithCopy_dropPlaceWrapper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .dnd_MoveWordsWithCopy_dragPlaceWrapper {
+    width: 30%;
+    height: 100%;
+    border-top: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 5px;
+    border-right: 1px solid #e9ecf4;
+  }
+
+  .dnd_MoveWordsWithCopy_dragPlace {
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .dnd_MoveWordsWithCopy_dropPlace {
+    font-size: 15px;
+    gap: 10px;
+  }
+
+  .dnd_MoveWordsWithCopy_dropPlacePart {
+    width: 120px;
+    height: 40px;
+  }
+}

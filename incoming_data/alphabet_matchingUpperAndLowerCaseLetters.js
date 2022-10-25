@@ -1,6 +1,19 @@
 import {
   renderAlphabetMatchingUpperAndLowerCaseLetters
-} from "../../../_common_files/common_scripts.js"
+} from "../utfc/individual_files/individual_scripts/renderAlphabetMatchingUpperAndLowerCaseLetters.js"
+
+
+//верстка для вставки в HTML
+//не забудь указать уникальный id тренажора !!!
+ /*
+<div class="trainerTaskWrapper" id="task-1">
+        <div class="alphabetWrapper_capital">
+          <div class="alphabetDropPlace_capital"></div>
+          <div class="alphabetDragPlace_capital"></div>
+        </div>
+      </div>
+*/
+
 
 (() => {
   // это контейнер для данного задания, для каждого нужно будет вписывать свой id, который был присвоен в html
@@ -145,10 +158,6 @@ import {
     },
   ];
 
-
-
   // сама функция, которая запускается, здесь ничего менять не нужно
   renderAlphabetMatchingUpperAndLowerCaseLetters(arrayOfElements, taskId);
 })();
-
-

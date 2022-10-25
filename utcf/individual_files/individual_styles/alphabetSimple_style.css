@@ -1,0 +1,125 @@
+
+.alphabetSimpleWrapper_simple {
+  width: 100%;
+  height: auto;
+}
+
+.alphabetSimpleDropPlace_simple,
+.alphabetSimpleDragPlace_simple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  margin: 20px 0;
+  height: auto;
+  min-height: 250px;
+  gap: 20px;
+}
+
+.alphabetSimpleCard_drag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing:border-box;
+          box-sizing:border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #ffffff;
+  border: none;
+  color: #434553;
+  width: 55px;
+  height: 55px;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+
+  cursor: -webkit-grab;
+
+  cursor: grab;
+
+
+  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+
+
+          box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+  border-radius: 8px;
+  -webkit-transition: -webkit-box-shadow 0.5s ease;
+  transition: -webkit-box-shadow 0.5s ease;
+  -o-transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease;
+  transition: box-shadow 0.5s ease, -webkit-box-shadow 0.5s ease;
+  -ms-touch-action: none;
+      touch-action: none;
+}
+
+.alphabetSimpleCard_drag:hover {
+  -webkit-box-shadow: -5px -5px 15px #ecebeb, 5px 5px 15px #c3c6ce;
+          box-shadow: -5px -5px 15px #ecebeb, 5px 5px 15px #c3c6ce;
+  -webkit-transition: -webkit-box-shadow 0.3s ease;
+  transition: -webkit-box-shadow 0.3s ease;
+  -o-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
+}
+
+.alphabetSimpleCard_drag_active:hover {
+  background-color: #2965e7;
+  -webkit-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.alphabetSimpleCard_drop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+  -webkit-box-sizing:border-box;
+
+          box-sizing:border-box;
+  border: 1px solid #1d66ff;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #ffffff;
+  min-width: 57px;
+  min-height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+          box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+  border-radius: 9px;
+}
+
+.alphabetSimpleCard_drag_active {
+  background-color: #5a8efd;
+  color: #ffff;
+}

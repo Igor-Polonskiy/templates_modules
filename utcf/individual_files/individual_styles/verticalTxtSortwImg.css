@@ -1,0 +1,95 @@
+.verticalTxtSort_img_wrepper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.verticalTxtSort_img_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+}
+
+.verticalTxtSort_img_item {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 76px;
+  margin: 0 10px 10px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.verticalTxtSort_img_item img {
+  max-height: 100%;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.verticalTxtSort_img_task_list {
+  width: 80%;
+  padding: 0;
+  position: relative;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.verticalTxtSort_img_task_item {
+  margin-bottom: 10px;
+  height: 76px;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  border-color: rgba(29, 101, 255, 0.6431372549019608);
+  cursor: -webkit-grab;
+  cursor: grab;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-touch-action: none;
+      touch-action: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+
+.verticalTxtSort_img_selected {
+  opacity: 0.6;
+}
+
+.verticalTxtSort_img_audio {
+  display: none !important;
+}
+
+.verticalTxtSort_img_task_list .buttonPlayPausePlayPause_wrap {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-right: 10px;
+}

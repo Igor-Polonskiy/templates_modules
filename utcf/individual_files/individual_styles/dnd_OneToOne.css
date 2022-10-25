@@ -1,0 +1,251 @@
+.dnd_OneToOne_comparePicturesWrapper {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 100%;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.dnd_OneToOne_dropPlaceWrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.dnd_OneToOne_dragPlaceWrapper {
+  width: 100%;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.dnd_OneToOne_box_sizes_big {
+  width: 200px;
+  height: 200px;
+}
+.dnd_OneToOne_box_sizes_middle {
+  width: 180px;
+  height: 180px;
+}
+.dnd_OneToOne_box_sizes_small {
+  width: 150px;
+  height: 150px;
+}
+.dnd_OneToOne_DragPlace_height-big {
+  height: 200px;
+}
+.dnd_OneToOne_DragPlace_height-middle {
+  height: 180px;
+}
+.dnd_OneToOne_DragPlace_height-small {
+  height: 150px;
+}
+
+.dnd_OneToOne_dropPicture_box {
+  border: 2px solid #99999b;
+  border-radius: 12px;
+  margin-bottom: 10px;
+
+  padding: 5px 0;
+  min-height: 140px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.dnd_OneToOne_dropPicture {
+  width: 100%;
+
+  -webkit-box-sizing: border-box;
+
+          box-sizing: border-box;
+  border-radius: 12px;
+  margin-bottom: auto;
+  margin-top: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.dnd_OneToOne_dragPicture_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 3px solid #99999b;
+  border-radius: 12px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-touch-action: none;
+      touch-action: none;
+}
+.dnd_OneToOne_dragPicture_box:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+          box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+}
+
+.dnd_OneToOne_dropPlace_imageBox {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  border: 2px dashed #99999b;
+  border-radius: 12px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.dnd_OneToOne_dropPlace_box {
+  border-radius: 12px;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.dnd_OneToOne_border {
+  border: 2px solid #99999b;
+}
+.dnd_OneToOne_dropPlace_box.dnd_OneToOne_border:hover {
+  cursor: pointer;
+}
+
+.dnd_OneToOne_dragPicture {
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.dnd_OneToOne_dragTitle,
+.dnd_OneToOne_dropTitle {
+  color: #000;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.dnd_OneToOne_dropTitle {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.dnd_OneToOne_dragTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0;
+}
+.dnd_OneToOne_audio {
+  display: none !important;
+}
+
+.dnd_OneToOne_dropPicture_box .buttonPlayPausePlayPause_wrap {
+  position: static;
+}
+
+@media screen and (max-width: 1370px) {
+  .dnd_OneToOne_dropPicture_box {
+    min-height: 100px;
+  }
+
+  .dnd_OneToOne_DragPlace_height-big {
+    height: 130px;
+  }
+  .dnd_OneToOne_DragPlace_height-middle {
+    height: 110px;
+  }
+  .dnd_OneToOne_DragPlace_height-small {
+    height: 95px;
+  }
+  .dnd_OneToOne_box_sizes_big {
+    width: 130px;
+    height: 130px;
+  }
+  .dnd_OneToOne_box_sizes_middle {
+    width: 110px;
+    height: 110px;
+  }
+  .dnd_OneToOne_box_sizes_small {
+    width: 95px;
+    height: 95px;
+  }
+}
