@@ -1,0 +1,144 @@
+.multipleChoice_3_Wrapper {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.multipleChoice_3_List {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.multipleChoice_3_Card {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 12px;
+  padding: 10px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+
+  -webkit-transition: all 0.2s ease;
+
+  -o-transition: all 0.2s ease;
+
+  transition: all 0.2s ease;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+  box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+}
+
+.multipleChoice_3_Card_big {
+  height: 250px;
+}
+.multipleChoice_3_Card_middle {
+  height: 200px;
+}
+.multipleChoice_3_Card_small {
+  height: 150px;
+}
+
+.multipleChoice_3_Card:hover {
+  cursor: pointer;
+  -webkit-box-shadow: -5px -5px 15px #ecebeb, 5px 5px 15px #c3c6ce;
+  box-shadow: -5px -5px 15px #ecebeb, 5px 5px 15px #c3c6ce;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.multipleChoice_3_ImageBox {
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.multipleChoice_3_Title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 20px;
+
+  -webkit-box-sizing: border-box;
+
+  box-sizing: border-box;
+}
+
+.multipleChoice_3-audio {
+  display: none !important;
+}
+
+.multipleChoice_3-enlarge_picture {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.multipleChoice_3_Card .buttonPlayPausePlayPause_wrap {
+  position: static;
+}
+
+@media screen and (max-width: 1370px) {
+  .multipleChoice_3_Card_big {
+    height: 200px;
+  }
+  .multipleChoice_3_Card_middle {
+    height: 150px;
+  }
+  .multipleChoice_3_Card_small {
+    height: 100px;
+  }
+  .multipleChoice_3_Title {
+    font-size: 18px;
+    margin: 5px 0 5px 0;
+  }
+}
