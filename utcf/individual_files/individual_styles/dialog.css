@@ -1,0 +1,249 @@
+.directDialogue_1_dialog {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.directDialogue_1_dialog_blure1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  z-index: 99;
+}
+
+.directDialogue_1_dialog_start {
+  cursor: pointer;
+  background: #fff;
+  padding: 10px;
+  border-radius: 12px;
+  border: 2px solid #0ab7d3;
+  font-size: 20px;
+}
+
+.directDialogue_1_dialog_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.directDialogue_1_dialog_interviewer_image {
+  width: 200px;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.directDialogue_1_dialog_text_wrapper {
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 12px;
+  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 10px #cbcdd3;
+  box-shadow: -5px -5px 15px #ffffff, 5px 5px 10px #cbcdd3;
+}
+
+.directDialogue_1_dialog_text {
+  padding-bottom: 40px;
+  position: absolute;
+  bottom: 0;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.directDialogue_1_dialog_Interviewer {
+  position: relative;
+  left: -300px;
+  width: 200px;
+  height: 50px;
+
+  border-radius: 12px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 35px 0;
+  background-color: white;
+  -webkit-box-shadow: 0 6px 5px -2px rgb(162, 162, 162);
+  box-shadow: 0 6px 5px -2px rgb(162, 162, 162);
+  border-bottom: 1px solid #666;
+  -webkit-transition: left 0.3s;
+  -o-transition: left 0.3s;
+  transition: left 0.3s;
+}
+
+.directDialogue_1_dialog_Interviewer > div,
+.directDialogue_1_dialog_User > div {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.directDialogue_1_dialog_Interviewer:before {
+  pointer-events: none;
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 9px;
+  top: 51px;
+  border: 15px solid;
+  border-color: #666 transparent transparent #666;
+}
+
+.directDialogue_1_dialog_Interviewer:after {
+  pointer-events: none;
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 10px;
+  top: 49px;
+  border: 15px solid;
+  border-color: #fff transparent transparent #fff;
+}
+
+.directDialogue_1_dialog_User {
+  min-width: 200px;
+  max-width: 250px;
+
+  height: 50px;
+  border-radius: 12px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  -webkit-box-pack: space-evenly;
+
+  -ms-flex-pack: space-evenly;
+
+  justify-content: space-evenly;
+  margin: 0 0 0 50px;
+  background-color: white;
+  -webkit-box-shadow: 0 6px 5px -2px rgb(162, 162, 162);
+  box-shadow: 0 6px 5px -2px rgb(162, 162, 162);
+  border-bottom: 1px solid #666;
+  position: relative;
+  right: -300px;
+  -webkit-transition: right 0.3s;
+  -o-transition: right 0.3s;
+  transition: right 0.3s;
+}
+
+.directDialogue_1_dialog_User:before {
+  pointer-events: none;
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 13px;
+  top: 51px;
+  border: 15px solid;
+  border-color: #666 transparent transparent #666;
+}
+
+.directDialogue_1_dialog_User:after {
+  pointer-events: none;
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 14px;
+  top: 49px;
+  border: 15px solid;
+  border-color: #fff transparent transparent #fff;
+}
+
+.directDialogue_1_dialog_answers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  border-radius: 12px;
+  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 10px #cbcdd3;
+  box-shadow: -5px -5px 15px #ffffff, 5px 5px 10px #cbcdd3;
+}
+
+.directDialogue_1_dialog_answer {
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
+  -webkit-box-shadow: 0 6px 5px -2px rgb(162, 162, 162);
+  box-shadow: 0 6px 5px -2px rgb(162, 162, 162);
+  border-bottom: 1px solid #666;
+
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.directDialogue_1_dialog_Interviewer .buttonPlayPausePlayPause_wrap,
+.directDialogue_1_dialog_answer .buttonPlayPausePlayPause_wrap,
+.directDialogue_1_dialog_User .buttonPlayPausePlayPause_wrap {
+  position: static;
+
+  margin-right: 5px;
+}
+
+.directDialogue_1_audio {
+  display: none !important;
+}

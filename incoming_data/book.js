@@ -1,7 +1,10 @@
 import { renderBookMarkup } from "../utcf/individual_files/individual_scripts/renderBookMarkup.js";
 
 // вставить в html
-/* <div class="trainerTaskWrapper" id="interactiveBook_task-1">
+
+/*
+<!-- в поле id указывается уникальный id для данного задания -->
+<div class="trainerTaskWrapper" id="interactiveBook_task-1">
   <div class="interactiveBook_book-background">
     <div id="interactiveBook_book" class="interactiveBook_book"></div>
   </div>
