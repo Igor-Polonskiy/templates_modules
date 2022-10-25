@@ -1,5 +1,6 @@
 import { renderSingleChoice_5_Markup } from "../utcf/individual_files/individual_scripts/renderSingleChoice_5_Markup.js";
 
+// вставить в html
 /*
 <!-- в поле id указывается уникальный id для данного задания -->
       <div class="trainerTaskWrapper" id="singleChoice_5_task-2">
