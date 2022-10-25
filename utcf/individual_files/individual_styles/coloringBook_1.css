@@ -1,0 +1,118 @@
+.coloringBook_1_coloringsWrapper {
+  margin: 1% 0 0 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  height: 600px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+  -webkit-box-sizing: border-box;
+
+  box-sizing: border-box;
+}
+
+.coloringBook_1_coloringImageWrapper {
+  width: 100%;
+  height: 78%;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  -webkit-box-align: center;
+
+  -ms-flex-align: center;
+
+  align-items: center;
+
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.coloringBook_1_pencilsWrapper {
+  margin: 1% 0 0 0;
+
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+
+  box-sizing: border-box;
+}
+
+.coloringBook_1_pencil {
+  height: 120px;
+  margin: 0 5px;
+
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* обязателен, участвует в js */
+.coloringBook_1_pencilActive {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.coloringBook_1_pencil:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.coloringBook_1_coloringImage {
+  cursor: pointer;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-tap-highlight-color: transparent;
+}
+
+.coloringBook_1_coloringImage [stoppainting="true"] {
+  pointer-events: none;
+}
+
+@media screen and (max-width: 1370px) {
+  .coloringBook_1_coloringImageWrapper {
+    width: 100%;
+    height: 85%;
+  }
+
+  .coloringBook_1_pencil {
+    height: 65px;
+  }
+}

@@ -1,0 +1,103 @@
+.singleChoice_4_Wrapper {
+  width: 100%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.singleChoice_4_List {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-box-pack: space-evenly;
+
+  -ms-flex-pack: space-evenly;
+
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.singleChoice_4_Item {
+  padding: 10px;
+  min-height: 100px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  -ms-flex-pack: distribute;
+
+  justify-content: space-around;
+
+  -webkit-box-align: center;
+
+  -ms-flex-align: center;
+
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 12px;
+  position: relative;
+
+  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+  box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+  -webkit-box-sizing: border-box;
+
+  box-sizing: border-box;
+}
+
+.singleChoice_4_Item:hover {
+  cursor: pointer;
+  -webkit-box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b;
+  box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b;
+}
+
+.singleChoice_4_Item .buttonPlayPausePlayPause_wrap {
+  position: static;
+}
+
+.singleChoice_4_Title {
+  width: 100%;
+  height: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.singleChoice_4_audio {
+  display: none !important;
+}
+
+@media screen and (max-width: 1370px) {
+}

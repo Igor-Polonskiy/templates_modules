@@ -1,0 +1,12 @@
+.writeAnswer_1_task_answer .buttonPlayPausePlayPause_wrap {
+  position: static;
+  margin-right: 20px;
+}
+
+.writeAnswer_1_task_audio {
+  display: none !important;
+}
+.writeAnswer_1_task_image {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}

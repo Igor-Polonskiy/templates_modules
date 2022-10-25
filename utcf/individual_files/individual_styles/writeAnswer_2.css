@@ -1,0 +1,16 @@
+.writeAnswer_2_task_wrapper .buttonPlayPausePlayPause_wrap {
+  position: static;
+  margin-right: 20px;
+}
+
+.writeAnswer_2_task_audio {
+  display: none !important;
+}
+
+.writeAnswer_2_task_wrapper img {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+.writeAnswer_2_task_wrapper select {
+  cursor: pointer;
+}
