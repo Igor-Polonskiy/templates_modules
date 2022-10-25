@@ -1,5 +1,6 @@
 import { renderSlideShow_2_Markup } from "../utcf/individual_files/individual_scripts/renderSlideShow_2_Markup.js";
 
+// вставить в html
 /*
 <!-- в поле id указывается уникальный id для данного задания -->
       <div class="slideShow_2_task_wrapper" id="slideShow_2_task-1">

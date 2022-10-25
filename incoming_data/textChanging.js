@@ -1,5 +1,6 @@
 import { renderEditableSentences } from "../utcf/individual_files/individual_scripts/renderEditableSentences.js";
 
+// вставить в html
 /*
  <!-- в поле id указывается уникальный id для данного задания -->
       <div class="trainerTaskWrapper" id="editableSentences_task-1">
