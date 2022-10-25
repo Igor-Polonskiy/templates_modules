@@ -1,0 +1,151 @@
+
+.alphabetWrapper_capital {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #434553;
+}
+
+.alphabetDropPlace_capital,
+.alphabetDragPlace_capital {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  width: 100%;
+  margin: 20px 0;
+  height: auto;
+  min-height: 250px;
+  gap: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.letterCardDrop_capital {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-width: 3px;
+  border-style: solid;
+  /* color: #434553; */
+  min-width: 50px;
+  min-height: 50px;
+  /* padding: 2px 2px; */
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+  box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.letterCardDrop_capital_border {
+  border-color: #e9ecf4;
+}
+
+.letterCardDrop_capital_p {
+  padding: 0;
+  pointer-events: none;
+  margin: 0 0 3px 3px;
+}
+
+.letterCardDrag_small_p {
+  margin: 0;
+  pointer-events: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*.alphabetCard_colors {
+  background-color: #ffffff;
+  color: #434553;
+}*/
+.alphabetCard_colors_active {
+  background-color: #5a8efd;
+  color: #ffffff;
+}
+
+.letterCardDrag_small {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  /* border: none; */
+
+  min-width: 50px;
+  min-height: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px 0 0 0;
+  font-weight: 600;
+  font-style: bold;
+  font-size: 20px;
+
+  cursor: -webkit-grab;
+
+  cursor: grab;
+  text-align: center;
+
+  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+
+  box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+  border-radius: 12px;
+  -webkit-transition: -webkit-box-shadow 0.3s ease;
+  transition: -webkit-box-shadow 0.3s ease;
+  -o-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
+  -ms-touch-action: none;
+      touch-action: none;
+}
+
+.letterCardDrag_small:hover {
+  -webkit-box-shadow: -5px -5px 15px #ecebeb, 5px 5px 15px #c3c6ce;
+  box-shadow: -5px -5px 15px #ecebeb, 5px 5px 15px #c3c6ce;
+  -webkit-transition: -webkit-box-shadow 0.3s ease;
+  transition: -webkit-box-shadow 0.3s ease;
+  -o-transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, -webkit-box-shadow 0.3s ease;
+}
+
+.letterCardDrag_small_action {
+  margin: 0px 0px 3px 6px;
+}
+.localReset {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  margin: 0px 0 26px 31px;
+  cursor: pointer;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
