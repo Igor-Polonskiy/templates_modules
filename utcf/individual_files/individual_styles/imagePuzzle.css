@@ -1,0 +1,231 @@
+.dnd_imagesPuzzle_comparePicturesWrapper {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  max-height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dnd_imagesPuzzle_dropPlaceWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-shadow: -5px -5px 15px #e0dfdf, 5px 5px 15px #d8d6d6;
+  box-shadow: -5px -5px 15px #e0dfdf, 5px 5px 15px #d8d6d6;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dnd_imagesPuzzle_dropPlaceWrapper_height_big {
+  height: 450px;
+}
+.dnd_imagesPuzzle_dropPlaceWrapper_height_middle {
+  height: 300px;
+}
+.dnd_imagesPuzzle_dropPlaceWrapper_height_small {
+  height: 150px;
+}
+.dnd_imagesPuzzle_dropPlaceWrapper_width_biggest {
+  width: 600px;
+}
+.dnd_imagesPuzzle_dropPlaceWrapper_width_big {
+  width: 450px;
+}
+.dnd_imagesPuzzle_dropPlaceWrapper_width_middle {
+  width: 300px;
+}
+.dnd_imagesPuzzle_dropPlaceWrapper_width_small {
+  width: 150px;
+}
+
+.dnd_imagesPuzzle_puzzleWrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dnd_imagesPuzzle_previewImageBox {
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  margin-right: 50px;
+
+  -webkit-box-sizing: border-box;
+
+  box-sizing: border-box;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.dnd_imagesPuzzle_dragPlaceWrapper {
+  width: 100%;
+  height: 160px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dnd_imagesPuzzle_dragImagesBox {
+  width: 150px;
+  height: 150px;
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+.dnd_imagesPuzzle_dragImagesBox:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+  -webkit-box-shadow: -5px -5px 15px #e0dfdf, 5px 5px 15px #d8d6d6;
+  box-shadow: -5px -5px 15px #e0dfdf, 5px 5px 15px #d8d6d6;
+}
+
+.dnd_imagesPuzzle_dropPlace {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dnd_imagesPuzzle_dropPlacePart {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 1px dashed #cbcdd3;
+
+  -webkit-box-sizing: border-box;
+
+  box-sizing: border-box;
+}
+
+.dnd_imagesPuzzle_sliderContent {
+  position: relative;
+  height: 100%;
+  width: 80%;
+
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  -webkit-box-shadow: -5px -5px 15px #e0dfdf, 5px 5px 15px #d8d6d6;
+
+  box-shadow: -5px -5px 15px #e0dfdf, 5px 5px 15px #d8d6d6;
+  border-radius: 12px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dnd_imagesPuzzle_slider_box {
+  position: absolute;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  gap: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1370px) {
+  .dnd_imagesPuzzle_dragPlaceWrapper {
+    height: 110px;
+  }
+
+  .dnd_imagesPuzzle_previewImageBox {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+  }
+  .dnd_imagesPuzzle_dropPlace {
+    height: 100px;
+    width: 100px;
+  }
+
+  .dnd_imagesPuzzle_dragImagesBox {
+    width: 100px;
+    height: 100px;
+  }
+
+  .dnd_imagesPuzzle_dropPlaceWrapper_height_big {
+    height: 300px;
+  }
+  .dnd_imagesPuzzle_dropPlaceWrapper_height_middle {
+    height: 200px;
+  }
+  .dnd_imagesPuzzle_dropPlaceWrapper_height_small {
+    height: 100px;
+  }
+  .dnd_imagesPuzzle_dropPlaceWrapper_width_biggest {
+    width: 400px;
+  }
+  .dnd_imagesPuzzle_dropPlaceWrapper_width_big {
+    width: 300px;
+  }
+  .dnd_imagesPuzzle_dropPlaceWrapper_width_middle {
+    width: 200px;
+  }
+  .dnd_imagesPuzzle_dropPlaceWrapper_width_small {
+    width: 100px;
+  }
+}
