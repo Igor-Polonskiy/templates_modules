@@ -1,5 +1,6 @@
 import { renderTextOrder } from "../utcf/individual_files/individual_scripts/renderTextOrder.js";
 
+// вставить в html
 /*
  <!-- в поле id указывается уникальный id для данного задания -->
       <div class="trainerTaskWrapper" id="wordOrderInSentences_task-1">
