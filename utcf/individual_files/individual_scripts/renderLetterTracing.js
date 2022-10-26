@@ -66,9 +66,9 @@ export function renderLetterTracing(
     );
     return match
       ? {
-          redValue: Number(match[1]),
-          greenValue: Number(match[2]),
-          blueValue: Number(match[3]),
+          redValue: +match[1],
+          greenValue: +match[2],
+          blueValue: +match[3],
         }
       : {};
   }

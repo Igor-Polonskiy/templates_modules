@@ -1,4 +1,4 @@
-import { createСoloringBook_2_Markup } from "../utcf/individual_files/individual_scripts/createСoloringBook_2_Markup";
+import { createСoloringBook_2_Markup } from "../utcf/individual_files/individual_scripts/createСoloringBook_2_Markup.js";
 
 // вставить в html
 /*

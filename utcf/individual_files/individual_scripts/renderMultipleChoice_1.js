@@ -18,7 +18,6 @@ export function renderMultipleChoice_1(data, taskId, rightAnswer) {
     isPlaying: false,
   };
   let isGameStart = false;
-  console.log(rightAnswer);
 
   const task = document.querySelector(`#${taskId}`);
   const field = task.querySelector(".multipleChoice_1_inputList");
