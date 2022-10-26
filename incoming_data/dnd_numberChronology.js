@@ -1,6 +1,6 @@
 import {
   renderNumberChronology
-} from "../../../_common_files/renderNumberChronology.js";
+} from "../utcf/individual_files/individual_scripts/renderNumberChronology.js";
 
 
 //шаблон для вставки в HTML

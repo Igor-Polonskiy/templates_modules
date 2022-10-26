@@ -7,7 +7,7 @@ import {
   addWrongChoiceClass,
   renderCheckPanel,
   getCheckPanelElements,
-} from "../../../_common_files/common_scripts.js";
+} from "../../common_files/common_scripts.js";
 
 export function renderLetterInsert(data, taskId, dragLetters) {
   const task = document.getElementById(`${taskId}`)

@@ -1,6 +1,6 @@
 import {
   renderImagesChronologyMarkup
-} from "../../../_common_files/renderImagesChronologyMarkup.js";
+} from "../utcf/individual_files/individual_scripts/renderImagesChronologyMarkup.js";
 
 
 //шаблон для вставки в HTML

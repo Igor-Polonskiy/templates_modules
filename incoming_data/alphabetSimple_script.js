@@ -1,6 +1,6 @@
 import {
     renderAlphabetSimple
-} from "../../../_common_files/renderAlphabetSimple.js"
+} from "../utcf/individual_files/individual_scripts/renderAlphabetSimple.js"
 
 //шаблон для вставки в HTML
 //ПОМЕНЯЙ id НА УНИКАЛЬНЫЙ

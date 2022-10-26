@@ -1,6 +1,6 @@
 import {
   renderImagesWithShadowMarkup
-} from "../../../_common_files/renderImagesWithShadowMarkup.js";
+} from "../utcf/individual_files/individual_scripts/renderImagesWithShadowMarkup.js";
 
 
 //шаблон для вставки в HTML

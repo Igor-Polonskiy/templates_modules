@@ -10,7 +10,7 @@ import {
   shuffleCards,
   dragAppend,
   scaleImage
-} from "../../../_common_files/common_scripts.js"
+} from "../../common_files/common_scripts.js"
 
 
 export function renderFreeField(answers, taskId, dropBackground) {

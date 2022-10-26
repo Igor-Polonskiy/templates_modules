@@ -1,6 +1,6 @@
 import {
   renderAlphabetMatchingUpperAndLowerCaseLetters
-} from "../utfc/individual_files/individual_scripts/renderAlphabetMatchingUpperAndLowerCaseLetters.js"
+} from "../utcf/individual_files/individual_scripts/renderAlphabetMatchingUpperAndLowerCaseLetters.js"
 
 
 //верстка для вставки в HTML

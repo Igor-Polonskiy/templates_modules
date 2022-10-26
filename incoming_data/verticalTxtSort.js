@@ -1,6 +1,6 @@
 import {
     renderVerticalTxtSort
-} from "../../../_common_files/renderVerticalTxtSort.js"
+} from "../utcf/individual_files/individual_scripts/renderVerticalTxtSort.js"
 
 
 //шаблон для вставки в HTML

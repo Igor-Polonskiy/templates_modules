@@ -1,6 +1,6 @@
 import {
     renderPuzzle
-} from "../../../_common_files/renderPuzzle.js"
+} from "../utcf/individual_files/individual_scripts/renderPuzzle.js"
 
 
 //шаблон для вставки в HTML

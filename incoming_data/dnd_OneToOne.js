@@ -1,6 +1,6 @@
 import {
   renderDndOneToOneMarkup
-} from "../../../_common_files/renderDndOneToOneMarkup.js";
+} from "../utcf/individual_files/individual_scripts/renderDndOneToOneMarkup.js";
 
 //шаблон для вставки в HTML
 //ПОМЕНЯЙ id НА УНИКАЛЬНЫЙ

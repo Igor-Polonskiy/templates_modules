@@ -1,6 +1,6 @@
 import {
     renderVerticalTxtSortWImg
-} from "../../../_common_files/renderVerticalTxtSortWImg.js"
+} from "../utcf/individual_files/individual_scripts/renderVerticalTxtSortWImg.js"
 
 
 

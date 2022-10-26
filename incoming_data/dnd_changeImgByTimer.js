@@ -1,6 +1,6 @@
 import {
   renderDndChangeImgByTimerMarkup
-} from "../../../_common_files/renderDndChangeImgByTimerMarkup.js"
+} from "../utcf/individual_files/individual_scripts/renderDndChangeImgByTimerMarkup.js"
 
 //шаблон для вставки в HTML
 //ПОМЕНЯЙ id НА УНИКАЛЬНЫЙ

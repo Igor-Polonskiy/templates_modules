@@ -7,7 +7,7 @@ import {
   shuffleCards,
   renderCheckPanel,
   getCheckPanelElements
-} from "../../../_common_files/common_scripts.js"
+} from "../../common_files/common_scripts.js"
 
 
 export function renderDndChangeImgByTimerMarkup(

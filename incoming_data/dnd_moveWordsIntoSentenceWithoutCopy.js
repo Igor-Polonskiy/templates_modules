@@ -1,6 +1,6 @@
 import {
   renderMoveWordsIntoSentenceWithoutCopyMarkup
-} from "../../../_common_files/renderMoveWordsIntoSentenceWithoutCopyMarkup.js";
+} from "../utcf/individual_files/individual_scripts/renderMoveWordsIntoSentenceWithoutCopyMarkup.js";
 
 
 //шаблон для вставки в HTML

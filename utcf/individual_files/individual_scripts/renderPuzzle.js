@@ -8,7 +8,7 @@ import {
     removeActiveCardClass,
     renderCheckPanel,
     getCheckPanelElements,
-} from "../../../_common_files/common_scripts.js"
+} from "../../common_files/common_scripts.js"
 
 export function renderPuzzle(taskId, lettersPuzzleArr) {
     const taskWrapper = document.getElementById(`${taskId}`)

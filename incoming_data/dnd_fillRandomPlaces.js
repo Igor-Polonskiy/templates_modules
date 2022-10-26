@@ -1,6 +1,6 @@
 import {
   renderDnDFillRandomPlacesMarkup
-} from "../../../_common_files/renderDnDFillRandomPlacesMarkup.js";
+} from "../utcf/individual_files/individual_scripts/renderDnDFillRandomPlacesMarkup.js";
 
 //шаблон для вставки в HTML
 //ПОМЕНЯЙ id НА УНИКАЛЬНЫЙ

@@ -1,6 +1,6 @@
 import {
   renderDnDImagesWithSoundMarkup
-} from "../../../_common_files/renderDnDImagesWithSoundMarkup.js"
+} from "../utcf/individual_files/individual_scripts/renderDnDImagesWithSoundMarkup.js"
 
 //шаблон для вставки в HTML
 //ПОМЕНЯЙ id НА УНИКАЛЬНЫЙ

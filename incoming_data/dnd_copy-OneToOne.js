@@ -1,6 +1,6 @@
 import {
   renderDndCopyOneToOneMarkup
-} from "../../../_common_files/renderDndCopyOneToOneMarkup.js";
+} from "../utcf/individual_files/individual_scripts/renderDndCopyOneToOneMarkup.js";
 
 
 

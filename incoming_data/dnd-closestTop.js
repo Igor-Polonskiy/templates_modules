@@ -1,6 +1,6 @@
 import {
   renderDnDClosestTopMarkup
-} from "../../../_common_files/renderDnDClosestTopMarkup.js";
+} from "../utcf/individual_files/individual_scripts/renderDnDClosestTopMarkup.js";
 
 
 //шаблон для вставки в HTML

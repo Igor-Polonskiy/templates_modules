@@ -1,6 +1,6 @@
 import {
   renderDndCopyManyToOneMarkup
-} from "../../../_common_files/renderDndCopyManyToOneMarkup.js";
+} from "../utcf/individual_files/individual_scripts/renderDndCopyManyToOneMarkup.js";
 
 //шаблон для вставки в HTML
 //ПОМЕНЯЙ id НА УНИКАЛЬНЫЙ

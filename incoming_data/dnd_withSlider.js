@@ -1,6 +1,6 @@
 import {
   renderDndWithSlider
-} from "../../../_common_files/renderDndWithSlider.js";
+} from "../utcf/individual_files/individual_scripts/renderDndWithSlider.js";
 
 
 //шаблон для вставки в HTML

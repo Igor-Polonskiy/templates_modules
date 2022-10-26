@@ -11,7 +11,7 @@ import {
     toggleOpacityAndEventsElement,
     renderCheckPanel,
     getCheckPanelElements
-} from "../../../_common_files/common_scripts.js"
+} from "../../common_files/common_scripts.js"
 
 export function renderAlphabetSimple(data, taskId) {
     const taskWrapper = document.querySelector(`#${taskId}`);

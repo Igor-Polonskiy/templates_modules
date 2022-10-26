@@ -1,6 +1,6 @@
 import {
   renderMoveWordsIntoSentenceWithCopyMarkup
-} from "../../../_common_files/renderMoveWordsIntoSentenceWithCopyMarkup.js";
+} from "../utcf/individual_files/individual_scripts/renderMoveWordsIntoSentenceWithCopyMarkup.js";
 
 
 

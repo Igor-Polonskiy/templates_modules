@@ -9,7 +9,7 @@ import {
     renderCheckPanel,
     getCheckPanelElements,
     scaleImage
-} from "../../../_common_files/common_scripts.js"
+} from "../../common_files/common_scripts.js"
 
 
 

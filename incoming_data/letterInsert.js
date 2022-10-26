@@ -1,6 +1,6 @@
 import {
   renderLetterInsert
-} from "../../../_common_files/renderLetterInsert.js";
+} from "../utcf/individual_files/individual_scripts/renderLetterInsert.js";
 
 
 //шаблон для вставки в HTML

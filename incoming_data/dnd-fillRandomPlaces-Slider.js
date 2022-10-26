@@ -1,6 +1,6 @@
 import {
   renderDndFillRandomPlacesSlider
-} from "../../../_common_files/renderDndFillRandomPlacesSlider.js";
+} from "../utcf/individual_files/individual_scripts/renderDndFillRandomPlacesSlider.js";
 
 
 //шаблон для вставки в HTML

@@ -12,7 +12,7 @@ import {
   scaleImage,
   renderCheckPanel,
   getCheckPanelElements,
-} from "../../../_common_files/common_scripts.js";
+} from "../../common_files/common_scripts.js";
 
 
 export function renderImagesChronologyMarkup(arrayOfElements, taskId) {

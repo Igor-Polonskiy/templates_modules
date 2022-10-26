@@ -45,13 +45,12 @@
       -ms-user-select: none;
           user-select: none;
   background-color: #ffffff;
-  border: none;
   color: #434553;
   width: 55px;
   height: 55px;
   font-weight: 600;
   font-style: normal;
-  font-size: 24px;
+  font-size: 22px;
 
   cursor: -webkit-grab;
 

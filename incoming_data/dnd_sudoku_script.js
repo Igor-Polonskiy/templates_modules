@@ -1,6 +1,6 @@
 import {
     renderSudoku
-} from "../../../_common_files/renderSudoku.js"
+} from "../utcf/individual_files/individual_scripts/renderSudoku.js"
 
 //шаблон для вставки в HTML
 //ПОМЕНЯЙ id НА УНИКАЛЬНЫЙ
