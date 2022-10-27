@@ -1,0 +1,117 @@
+.letterInsert {
+  width: 100%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.letterInsert_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.letterInsert_imgBox {
+  width: 80%;
+  height: 350px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.letterInsert_letter {
+  width: 70px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 12px;
+  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 10px #cbcdd3;
+          box-shadow: -5px -5px 15px #ffffff, 5px 5px 10px #cbcdd3;
+  font-size: 30px;
+}
+
+.letterInsert_drop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.letterInsert_dropBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.letterInsert_drag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  height: 100px;
+  width: 100%;
+  border-radius: 12px;
+  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 10px #cbcdd3;
+          box-shadow: -5px -5px 15px #ffffff, 5px 5px 10px #cbcdd3;
+  margin: 10px auto;
+}
+
+.letterInsert_dragitem,
+.letterInsert_dragitem_dropped {
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 12px;
+  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 10px #cbcdd3;
+          box-shadow: -5px -5px 15px #ffffff, 5px 5px 10px #cbcdd3;
+  font-size: 30px;
+  cursor: -webkit-grab;
+  cursor: grab;
+  -ms-touch-action: none;
+      touch-action: none;
+}
+
+.letterInsert_dropItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
