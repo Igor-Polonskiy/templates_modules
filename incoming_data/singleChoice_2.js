@@ -18,11 +18,12 @@ import { renderSingleChoiсe_2_Markup } from "../utcf/individual_files/individua
       id: 1,
       text: "8", // текст
       audioSrc: "sound/8_s.mp3", // звук опционально, если не нужен, то ставить ""
+      answerTag: "false", // принадлежность к правильному/неправильному ответу
     },
   ];
 
-  // здесь указывается правильный ответ, он проверяется по полю text  в массиве
-  const winVarTask = "10";
+  // здесь указывается правильный ответ, он проверяется по полю answerTag  в массиве
+  const winVarTask = "true";
 
   // сама функция, которая запускается, здесь ничего менять не нужно
   renderSingleChoiсe_2_Markup(answersData, winVarTask, taskId);

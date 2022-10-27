@@ -73,14 +73,14 @@ export function renderSingleChoice_5_Markup(
     [...listContainer.children].forEach((el) => {
       getRandomPositionToCard(el);
       removeActiveCardClass(el);
-      el.firstElementChild.pause();
-      el.firstElementChild.currentTime = 0;
-      if (el.firstElementChild.classList.contains("noEventElement")) {
-        togglePointerEventElement(el.firstElementChild);
-      }
+      const videoEl = el.querySelector("video");
+      videoEl.pause();
+      videoEl.currentTime = 0;
     });
     checkingAnswerReset(controlsBox, infoBox);
-    listContainer.addEventListener("click", matchingHandler);
+    if (listContainer.classList.contains("noEventElement")) {
+      togglePointerEventElement(listContainer);
+    }
     currentActiveCard = null;
     // закрываем кнопку ПРОВЕРИТЬ
     if (isGameStart) {
@@ -105,13 +105,14 @@ export function renderSingleChoice_5_Markup(
       checkingAnswerNegative(controlsBox, infoBox);
     }
     [...listContainer.children].forEach((el) => {
-      el.firstElementChild.pause();
-      if (!el.firstElementChild.classList.contains("noEventElement")) {
-        togglePointerEventElement(el.firstElementChild);
-      }
+      const videoEl = el.querySelector("video");
+      videoEl.pause();
+      videoEl.currentTime = 0;
     });
 
-    listContainer.removeEventListener("click", matchingHandler);
+    if (!listContainer.classList.contains("noEventElement")) {
+      togglePointerEventElement(listContainer);
+    }
   }
 
   function matchingHandler(e) {

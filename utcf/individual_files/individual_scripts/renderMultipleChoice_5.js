@@ -58,7 +58,7 @@ export function renderMultipleChoice_5(arrayOfElements, rightAnswer, taskId) {
           `<div class='multipleChoice_5_VideoTitle'>${item.text}</div>`;
 
         return `<div class="multipleChoice_5_VideoCard oneMultiChoice_border ${heightItem}" data="${item.answerTag}" >
-                    <video class="multipleChoice_5_Video " controls
+                    <video class="multipleChoice_5_Video"
                            src="${item.videoSrc}"
                            id="${item.id}${taskId}"
                            type="video/mp4"
@@ -75,14 +75,14 @@ export function renderMultipleChoice_5(arrayOfElements, rightAnswer, taskId) {
     [...listContainer.children].forEach((item) => {
       removeActiveCardClass(item);
       getRandomPositionToCard(item);
-      item.firstElementChild.pause();
-      item.firstElementChild.currentTime = 0;
-      if (item.firstElementChild.classList.contains("noEventElement")) {
-        togglePointerEventElement(item.firstElementChild);
-      }
+      const videoEl = item.querySelector("video");
+      videoEl.pause();
+      videoEl.currentTime = 0;
     });
 
-    listContainer.addEventListener("click", matchingHandler);
+    if (listContainer.classList.contains("noEventElement")) {
+      togglePointerEventElement(listContainer);
+    }
     // закрываем кнопку ПРОВЕРИТЬ
     if (isGameStart) {
       toggleOpacityAndEventsElement(btnTest);
@@ -111,12 +111,13 @@ export function renderMultipleChoice_5(arrayOfElements, rightAnswer, taskId) {
     } else checkingAnswerNegative(controlsBox, infoBox);
 
     [...listContainer.children].forEach((el) => {
-      el.firstElementChild.pause();
-      if (!el.firstElementChild.classList.contains("noEventElement")) {
-        togglePointerEventElement(el.firstElementChild);
-      }
+      const videoEl = el.querySelector("video");
+      videoEl.pause();
+      videoEl.currentTime = 0;
     });
-    listContainer.removeEventListener("click", matchingHandler);
+    if (!listContainer.classList.contains("noEventElement")) {
+      togglePointerEventElement(listContainer);
+    }
   }
 
   function matchingHandler(e) {

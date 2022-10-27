@@ -46,9 +46,9 @@ export function createСoloringBook_2_Markup(pencils, taskId, rightAnswers) {
       "#" +
       (
         (1 << 24) +
-        (Number(rgb.match(/\d{1,3}/gi)[0]) << 16) +
-        (Number(rgb.match(/\d{1,3}/gi)[1]) << 8) +
-        Number(rgb.match(/\d{1,3}/gi)[2])
+        +(rgb.match(/\d{1,3}/gi)[0] << 16) +
+        +(rgb.match(/\d{1,3}/gi)[1] << 8) +
+        +rgb.match(/\d{1,3}/gi)[2]
       )
         .toString(16)
         .slice(1);
@@ -58,7 +58,7 @@ export function createСoloringBook_2_Markup(pencils, taskId, rightAnswers) {
   function onBtnTestClick() {
     let winCount = 0;
 
-    [...svgBox.firstElementChild.children].forEach((el) => {
+    [...svgBox.children].forEach((el) => {
       if (el.style.fill) {
         if (
           rgbToHex(el.style.fill).toLowerCase() ===
