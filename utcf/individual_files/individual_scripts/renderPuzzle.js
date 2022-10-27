@@ -56,7 +56,7 @@ export function renderPuzzle(taskId, lettersPuzzleArr) {
             const div = document.createElement('div');
             div.classList.add('wordPazzle_letter');
             div.setAttribute('drag-data', elem);
-            const paragraph = document.createElement('p');
+            const paragraph = document.createElement('div');
             paragraph.classList.add('wordPazzle_letter_p');
             paragraph.append(elem);
             div.insertAdjacentHTML(

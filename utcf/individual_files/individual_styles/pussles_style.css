@@ -88,7 +88,7 @@
   position: absolute;
   pointer-events: none;
   left: 42%;
-  top: -20%;
+  top: 10%;
   font-weight: bold;
   font-size: 70px;
 }
@@ -143,11 +143,7 @@
     clip-rule: evenodd; */
     /* width: 100%; */
   }
-  .wordPazzle_letter_p {
-    left: 40%;
-    top: -30%;
-  }
-
+ 
   .wordPazzle_dropWrapper {
     width: 616px;
     height: 50%;
@@ -186,7 +182,6 @@
   }
   .wordPazzle_letter_p {
     left: 38%;
-    top: -42%;
     font-weight: bold;
     font-size: 50px;
   }
@@ -229,7 +224,6 @@
   }
   .wordPazzle_letter_p {
     left: 38%;
-    top: -30%;
     font-weight: bold;
     font-size: 35px;
   }

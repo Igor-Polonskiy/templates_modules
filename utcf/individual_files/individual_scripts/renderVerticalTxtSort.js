@@ -105,7 +105,7 @@ export function renderVerticalTxtSort(data, taskId) {
         };
 
         function moveAt(pageY) {
-            draggingItem.style.top = pageY - shiftY + 'px';
+            draggingItem.style.top = pageY + document.body.getBoundingClientRect().top - shiftY + 'px';
         }
 
         elemBelow = document.elementFromPoint(event.clientX, event.clientY);

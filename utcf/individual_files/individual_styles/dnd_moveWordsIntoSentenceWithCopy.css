@@ -22,6 +22,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .dnd_MoveWordsWithCopy_dropPlaceWrapper {
