@@ -79,7 +79,9 @@ export function renderWriteAnswer_1_Markup(rightAnswers, taskId) {
   function onCheckTaskBtnClick() {
     let winCount = 0;
     [...allInputs].forEach((el, index) => {
-      if (el.value === String(rightAnswers[index]).toLowerCase()) {
+      if (
+        el.value.toLowerCase() === String(rightAnswers[index]).toLowerCase()
+      ) {
         winCount += 1;
         addRightChoiceClass(el);
       } else addWrongChoiceClass(el);

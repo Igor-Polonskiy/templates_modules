@@ -117,7 +117,7 @@ export function renderSingleChoiсe_2_Markup(answersData, winVarTask, taskId) {
             `;
 
         return `
-                  <div class="singleChoiсe_2_task_answer ${elWidthSmall} oneMultiChoice_border" style=${elementWidth}>
+                  <div class="singleChoiсe_2_task_answer ${elWidthSmall} oneMultiChoice_border" data-name="${item.answerTag}" style=${elementWidth}>
                   ${isSound}
                   ${item.text}
                   </div>
@@ -152,7 +152,7 @@ export function renderSingleChoiсe_2_Markup(answersData, winVarTask, taskId) {
     }
 
     removeActiveCardClass(finishAnswer);
-    if (finishAnswer.innerText === winVarTask) {
+    if (finishAnswer.dataset.name === winVarTask) {
       addRightChoiceClass(finishAnswer);
 
       checkingAnswerPositive(controlsBox, infoBox);

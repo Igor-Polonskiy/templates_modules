@@ -100,12 +100,13 @@
 }
 
 .singleChoice_5_video {
-  width: 70%;
-  height: 70%;
+  width: 80% !important;
+  /* height: 80% !important; */
 
   -webkit-box-sizing: border-box;
 
   box-sizing: border-box;
+  text-align: center;
 }
 
 .singleChoice_5_Card:active,
