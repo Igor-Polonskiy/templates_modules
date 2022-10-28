@@ -80,7 +80,8 @@ export function renderWriteAnswer_1_Markup(rightAnswers, taskId) {
     let winCount = 0;
     [...allInputs].forEach((el, index) => {
       if (
-        el.value.toLowerCase() === String(rightAnswers[index]).toLowerCase()
+        el.value.toLowerCase().trim() ===
+        String(rightAnswers[index]).toLowerCase()
       ) {
         winCount += 1;
         addRightChoiceClass(el);
