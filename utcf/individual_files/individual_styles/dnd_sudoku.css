@@ -1,44 +1,39 @@
-.trainerTaskWrapper {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
 .dnd_sudoku_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .dnd_sudoku_imgWrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 10px;
+
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
   width: 110px;
   height: 110px;
   -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
-          box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
-  border-radius: 10px;
+  box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+  border-radius: 12px;
 }
 
 .dnd_sudoku_imgWrapper img {
   max-width: 90%;
   max-height: 90%;
+
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
 }
@@ -48,9 +43,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 10px;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .dnd_sudoku_dropeitem {
@@ -58,16 +55,16 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 110px;
   height: 110px;
   -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
-          box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
-  border-radius: 10px;
+  box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+  border-radius: 12px;
 }
 
 .dnd_sudoku_answers {
@@ -76,21 +73,21 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 150px;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 130px;
   width: 100%;
   -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
-          box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
-  border-radius: 10px;
+  box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+  border-radius: 12px;
 }
 
 .dnd_sudoku_answer,
 .dnd_sudoku_answer_drop {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 15px;
   width: 110px;
   height: 110px;
@@ -101,48 +98,27 @@
   background-size: contain;
   background-repeat: no-repeat;
   -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
-          box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+  box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   -ms-touch-action: none;
-      touch-action: none;
+  touch-action: none;
 }
 
-.dnd_sudoku_checkTask {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-  margin-top: 20px;
-}
+@media screen and (max-width: 1370px) {
+  .dnd_sudoku_answers {
+    height: 110px;
+  }
 
-.dnd_sudoku_chek_answer {
-  font-size: 26px;
-}
-
-.dnd_sudokuBtn {
-  cursor: pointer !important;
-  -webkit-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
-  -webkit-box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4 !important;
-          box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4 !important;
-  border: none !important;
-  border-radius: 12px !important;
-  background-color: #0ab7d3 !important;
-  padding: 10px !important;
-  font-size: 26px !important;
-  color: white !important;
-  min-width: 100px !important;
-  margin: 0 !important;
-}
-
-.dnd_sudokuBtn:hover {
-  -webkit-box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b !important;
-          box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b !important;
+  .dnd_sudoku_imgWrapper {
+    width: 90px;
+    height: 90px;
+  }
+  .dnd_sudoku_answer,
+  .dnd_sudoku_answer_drop {
+    width: 90px;
+    height: 90px;
+  }
 }
