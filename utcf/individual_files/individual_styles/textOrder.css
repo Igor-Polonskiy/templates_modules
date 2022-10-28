@@ -55,3 +55,9 @@
 .wordOrderInSentences_selectedInSentence {
   opacity: 0.2;
 }
+
+@media screen and (max-width: 1370px) {
+  .wordOrderInSentences_word {
+    font-size: 20px;
+  }
+}
