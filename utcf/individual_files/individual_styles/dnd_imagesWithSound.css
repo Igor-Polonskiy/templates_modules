@@ -154,8 +154,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -ms-touch-action: none;
-      touch-action: none;
-
+  touch-action: none;
 }
 
 .dnd_soundToSomething_title {
@@ -198,10 +197,10 @@
     max-height: 250px;
   }
 
+  .dnd_soundToSomething_dropPlace_box,
   .dnd_soundToSomething_dropPlace_soundBox,
   .dnd_soundToSomething_dragSoundBox {
     width: 95px;
-
     height: 95px;
   }
 
