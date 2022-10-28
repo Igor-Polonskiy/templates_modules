@@ -98,7 +98,7 @@
   width: 30%;
 }
 
-.multipleChoice_5_Video {
+.multipleChoice_5_VideoCard .multipleChoice_5_Video {
   width: 80% !important;
   /* height: 80% !important; */
   -webkit-box-sizing: border-box;
