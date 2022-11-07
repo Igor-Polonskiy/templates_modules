@@ -39,7 +39,7 @@ export function renderPuzzle(taskId, lettersPuzzleArr) {
     let draggingItem;
     let elemBelow;
 
-    
+
     function changeInteraction() {
         removeActiveCardClass(wordPazzle_dropWrapper)
         lettersPuzzleArr[interaction].split('').forEach((elem) => {
@@ -52,7 +52,13 @@ export function renderPuzzle(taskId, lettersPuzzleArr) {
         const arrPuzz = [...lettersPuzzleArr.map(elem => elem.split(''))];
         const randomLetters = [...arrPuzz][interaction].sort(() => Math.random() > 0.5 ? 1 : -1);
 
-        randomLetters.forEach((elem) => {
+        function sortedWord(random) {
+            const randomWord = randomLetters.join('');
+            const rightWord = lettersPuzzleArr[interaction];
+            return randomWord === rightWord ? sortedWord(random.sort(() => Math.random() > 0.5 ? 1 : -1)) : random
+        }
+
+        sortedWord(randomLetters).forEach((elem) => {
             const div = document.createElement('div');
             div.classList.add('wordPazzle_letter');
             div.setAttribute('drag-data', elem);
@@ -169,7 +175,7 @@ export function renderPuzzle(taskId, lettersPuzzleArr) {
             if (clickWithoutMove) {
                 dropAppend(elemDraggingStartPlace, draggingItem)
             }
-            
+
 
             // ЛОГИКА ОБРАБОТКИ ПОПАДАНИЯ НА НУЖНЫЙ БЛОК И НАОБОРОТ
             if (elemBelow.classList.contains('wordPazzle_dropWord')) {
