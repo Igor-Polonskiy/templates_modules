@@ -7,7 +7,7 @@ import {
 //шаблон для вставки в HTML
 //ПОМЕНЯЙ id НА УНИКАЛЬНЫЙ
 /*
-div class="trainerTaskWrapper" id="task-1">
+<div class="trainerTaskWrapper" id="task-1">
         <div class="dnd_copy-OneToOne_comparePicturesWrapper">
           <div class="dnd_copy-OneToOne_dropPlaceWrapper"></div>
           <div class="dnd_copy-OneToOne_dragPlaceWrapper"></div>
