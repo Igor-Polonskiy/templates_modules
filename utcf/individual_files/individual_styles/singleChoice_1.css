@@ -41,7 +41,10 @@
   box-sizing: border-box;
 }
 
-.singleChoice_1_inputWrapper > input {
+.singleChoice_1-input {
+  -webkit-transform:scale(2);
+      -ms-transform:scale(2);
+          transform:scale(2);
   cursor: pointer;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -57,6 +60,7 @@
 
 .singleChoice_1_inputWrapper .buttonPlayPausePlayPause_wrap {
   position: relative;
+  top:0;
 }
 
 .singleChoice_1-audio {
