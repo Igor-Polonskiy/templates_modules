@@ -80,7 +80,7 @@ export function renderWriteAnswer_1_Markup(rightAnswers, taskId) {
     let winCount = 0;
     [...allInputs].forEach((el, index) => {
       if (
-        el.value.toLowerCase().trim() ===
+        el.value.toLowerCase().replace(/[/.,!?;]*/g, '').trim() ===
         String(rightAnswers[index]).toLowerCase()
       ) {
         winCount += 1;
