@@ -50,6 +50,10 @@ export function createСoloringBook_2_Markup(pencils, taskId, rightAnswers) {
         +(rgb.match(/\d{1,3}/gi)[1] << 8) +
         +rgb.match(/\d{1,3}/gi)[2]
       )
+
+        // (Number(rgb.match(/\d{1,3}/gi)[0]) << 16) +
+        // (Number(rgb.match(/\d{1,3}/gi)[1]) << 8) +
+        // Number(rgb.match(/\d{1,3}/gi)[2])
         .toString(16)
         .slice(1);
     return color;
@@ -67,7 +71,7 @@ export function createСoloringBook_2_Markup(pencils, taskId, rightAnswers) {
           ]?.toLowerCase()
         ) {
           winCount += 1;
-        }
+        } else winCount--
       }
     });
 
@@ -94,11 +98,13 @@ export function createСoloringBook_2_Markup(pencils, taskId, rightAnswers) {
   function onSvgClick(e) {
     if (e.target.classList.contains("coloringBook_2_coloringImage")) return;
     // открываем кнопку ПРОВЕРИТЬ
-    if (!isGameStart) {
-      toggleOpacityAndEventsElement(btnTest);
-      isGameStart = true;
+    if (e.target.tagName === 'path') {
+      if (!isGameStart) {
+        toggleOpacityAndEventsElement(btnTest);
+        isGameStart = true;
+      }
+      e.target.parentElement.style.fill = currentColor;
     }
-    e.target.parentElement.style.fill = currentColor;
   }
 
   function onBtnResetClick() {
@@ -108,7 +114,7 @@ export function createСoloringBook_2_Markup(pencils, taskId, rightAnswers) {
         child.attributes.getNamedItem("stoppainting").value === "true"
       )
         return;
-      child.style.fill = "#ffffff";
+      child.removeAttribute('style') //= "#ffffff";
     });
     [...pencilsBox.children].forEach((pencil) => {
       pencil.classList.remove("coloringBook_2_pencilActive");
