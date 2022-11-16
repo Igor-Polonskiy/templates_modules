@@ -65,6 +65,7 @@ export function renderTextOrder(data, taskId) {
       shiftX =
         event.target.parentElement.getBoundingClientRect().left +
         (event.clientX - event.target.getBoundingClientRect().left);
+        moveAt(event.clientX-getComputedStyle(event.target).margin.slice(0,-2))
     } else return;
 
     let limits = {
